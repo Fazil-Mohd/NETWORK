@@ -6,7 +6,7 @@ for ((i=1; i<=n; i++))
 do
         sum=$((sum + i))
 done
-echo "$sum"
+echo "sum of $n numbers =  $sum"
 
 
 //OR
