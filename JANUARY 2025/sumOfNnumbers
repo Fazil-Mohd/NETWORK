@@ -7,3 +7,14 @@ do
         sum=$((sum + i))
 done
 echo "$sum"
+
+
+//OR
+
+#!/bin/bash
+echo "Enter Numbers"
+read n
+
+numbers=$(seq -s+ 1 $n)
+sum=$(($n * ($n + 1) / 2))  
+echo "$numbers=$sum"
