@@ -1,0 +1,9 @@
+echo "Enter Options 1)ADD 2)SUBSTACT 3)MULTIPLICATION"
+read i
+echo "Enter NUmbers"
+read a b
+case $i in
+	1)echo $(($a+$b));;
+	2)echo $(($a-$b));;
+	3)echo $(($a*$b));;
+esac
