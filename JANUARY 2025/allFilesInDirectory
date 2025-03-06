@@ -1,17 +1,4 @@
 #!/bin/bash
-echo "Enter the directory path:"
-read dir
-
-if [ -d "$dir" ]; then
-    # Find all files in the directory (including subdirectories)
-    find "$dir" -type f
-else
-    echo "Directory not found!"
-fi
-
-
-
-#!/bin/bash
 # Ask the user for the directory path
 echo "Enter the directory path:"
 read dir
