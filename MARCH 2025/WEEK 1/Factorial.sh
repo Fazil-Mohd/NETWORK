@@ -8,3 +8,11 @@ do
         ((i++))
 done
 echo "The factorial of $num is $fact"
+
+
+-----------------------------
+output:
+-----------------------------
+Current Date: 2025-03-06
+Current Time: 10:42:50
+Username: mca
