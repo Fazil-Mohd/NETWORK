@@ -14,3 +14,10 @@ for ((i=0; i<n; i++)); do
 done
 
 echo ""
+
+-------------------------------
+output:
+-------------------------------
+Enter the number of terms: 5
+Fibonacci series:
+0 1 1 2 3 
