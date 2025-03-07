@@ -9,4 +9,9 @@ is_palindrome(){
 }
 read -p "Enter a string: " str
 is_palindrome $str
-~                    
+
+--------------------------------
+Output:
+--------------------------------
+Enter a string: malayalam
+The String 'malayalam' is a Palindrome
