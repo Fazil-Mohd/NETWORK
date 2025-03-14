@@ -13,3 +13,9 @@ done
 
 echo "Reversed Number: $rev"
 
+------------------------------
+Output:
+------------------------------
+Enter a 5-digit number:
+123456
+Reversed Number: 654321
