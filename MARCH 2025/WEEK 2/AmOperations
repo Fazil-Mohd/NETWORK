@@ -1,0 +1,21 @@
+echo "Enter Two Numbers:"
+read a
+read b
+echo "Enter Operations 1.Addition 2.Subtraction 3.Multiplication 4.division"
+read choice
+case $choice in
+        1)
+                sum=$((a+b))
+                echo "$sum";;
+        2)
+                sum=$((a-b))
+                echo "$sum";;
+        3)
+                sum=$((a*b))
+                echo "$sum";;
+        4)
+                sum=$((a/b))
+                echo "$sum";;
+        *)
+                echo "Invalid" ;;
+esac
