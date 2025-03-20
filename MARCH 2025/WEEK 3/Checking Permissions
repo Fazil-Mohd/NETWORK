@@ -1,3 +1,5 @@
+Check the file have read, write and execution permission.
+
 echo -e "Enter File Name: \c"
 read file
 if [ -r $file ]
@@ -18,3 +20,11 @@ then
 else
         echo "$file Not have execute permission"
 fi
+
+------------------------------
+Output:
+------------------------------
+Enter File Name: checkDirectory.sh      
+checkDirectory.sh have read permission
+checkDirectory.sh have write  permission
+checkDirectory.sh have execute permission
