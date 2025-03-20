@@ -1,0 +1,19 @@
+echo "Enter the File Name:"
+read file
+if [ -s "$file" ]
+then
+        echo "$file is Not Empty"
+else
+        echo "$file is Empty"
+fi
+-------------------------
+Output:
+-------------------------
+Enter File Name: checkDirectory.sh      
+checkDirectory.sh have read permission
+checkDirectory.sh have write  permission
+checkDirectory.sh have execute permission
+
+Enter the File Name:
+hi.sh
+hi.sh is Empty
