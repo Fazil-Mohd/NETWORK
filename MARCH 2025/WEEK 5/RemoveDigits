@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# Check if a file is provided as argument
+if [ -z "$1" ]; then
+    echo "Usage: $0 textFile.txt"
+    exit 1
+fi
+
+# Check if the file exists
+if [ ! -f "$1" ]; then
+    echo "File $1 does not exist."
+    exit 1
+fi
+
+# Remove digits from the file and save it back
+sed -i 's/[0-9]//g' "$1"
+
+echo "All digits have been removed from the file $1."
+
+
+
+---------------------------------
+Output:
+---------------------------------
+./removeDigits.sh textFile.txt
+All digits have been removed from the file textFile.txt.
