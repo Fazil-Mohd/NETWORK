@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "Enter a line of text:"
+read input_line
+
+output_line=$(echo "$input_line" | sed 's/[0-9]\+/[&]/g')
+
+echo "Modified line: $output_line"
+
+-----------------------------
+Output:
+-----------------------------
+Enter a line of text:
+Numbers Are 123 and 2345 in this line.
+Modified line: Numbers Are [123] and [2345] in this line.
